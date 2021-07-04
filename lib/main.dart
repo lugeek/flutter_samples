@@ -6,6 +6,8 @@ import 'package:flutter_samples/widgets/key_identifier.dart';
 import 'package:flutter_samples/widgets/statefulwidget.dart';
 import 'package:flutter_samples/widgets/statelesswidget.dart';
 
+import 'fish_redux/counter/page.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -36,6 +38,7 @@ class MyApp extends StatelessWidget {
         '/widgets/statefulwidget': (context) => StatefulWidgetPage(),
         '/widgets/inheritedwidget': (context) => InheritedWidgetPage(),
         '/widgets/key_identifier': (context) => KeyIdentifierPage(),
+        '/fish_redux/counter': (context) => CounterPage().buildPage({}),
       },
     );
   }

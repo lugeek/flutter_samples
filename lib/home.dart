@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
             item(context, 'StatefulWidget', '/widgets/statefulwidget'),
             item(context, 'InheritedWidget', '/widgets/inheritedwidget'),
             item(context, 'Key identifier', '/widgets/key_identifier'),
+            item(context, 'FishRedux Counter', '/fish_redux/counter'),
           ],
         ),
       ),
