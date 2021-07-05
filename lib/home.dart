@@ -18,6 +18,8 @@ class Home extends StatelessWidget {
             item(context, 'InheritedWidget', '/widgets/inheritedwidget'),
             item(context, 'Key identifier', '/widgets/key_identifier'),
             item(context, 'FishRedux Counter', '/fish_redux/counter'),
+            item(context, 'FishRedux Grid', '/fish_redux/grid_use_adapter'),
+            item(context, 'FishRedux DynamicFlowAdapter', '/fish_redux/list_dynamic_flow_adapter')
           ],
         ),
       ),

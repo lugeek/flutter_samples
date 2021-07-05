@@ -7,6 +7,8 @@ import 'package:flutter_samples/widgets/statefulwidget.dart';
 import 'package:flutter_samples/widgets/statelesswidget.dart';
 
 import 'fish_redux/counter/page.dart';
+import 'fish_redux/grid/page.dart';
+import 'fish_redux/list-adapter/page.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,6 +41,8 @@ class MyApp extends StatelessWidget {
         '/widgets/inheritedwidget': (context) => InheritedWidgetPage(),
         '/widgets/key_identifier': (context) => KeyIdentifierPage(),
         '/fish_redux/counter': (context) => CounterPage().buildPage({}),
+        '/fish_redux/grid_use_adapter': (context) => GridPage().buildPage({}),
+        '/fish_redux/list_dynamic_flow_adapter': (context) => ListAdapterPage().buildPage({}),
       },
     );
   }
